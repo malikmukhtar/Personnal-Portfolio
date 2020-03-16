@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    background-color: #fcf0cc; /*a64253 861657*/;
+    margin: 0px;
+}
+
+nav {
+    color: white;
+    background-color: #a64253;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+header {
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80');
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    position: relative;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header::after{
+    content: '';
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 0.5;
+}
+
+header * {
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 70px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 35px;
+    margin: 0px;
+}
+
+footer {
+    background-color: #a64253;
+    color: white;
+    text-align: center;
+}
+
+footer .fa-heart {
+    color: purple;
+}
