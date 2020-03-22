@@ -123,6 +123,10 @@ section {
 
 }
 
+section {
+    font-size: 20px;
+}
+
 .projects-container {
     display: flex;
     flex-wrap: wrap;
