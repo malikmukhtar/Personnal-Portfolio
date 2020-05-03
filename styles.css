@@ -4,12 +4,17 @@
 
 body {
     font-family: 'Indie Flower', cursive;
-    background-color: #fcf0cc; /*a64253 861657*/;
+    background-color: #fcf0cc; 
     margin: 0px;
+   }
+#particles-js {
+    height: 100%;
+    background: brown;
 }
 
 nav {
     color: white;
+    font-size: 25px;
     background-color: #a64253;
     padding: 20px;
     display: flex;
@@ -127,7 +132,16 @@ section {
 section {
     font-size: 20px;
 }
-
+#projects {
+    background-color: #002b37;
+    border-top: 1px solid white;
+}
+#projects .projects-container img {
+    height: 150px;
+}
+#projects .projects-container p,h2 {
+   color: white;
+}
 .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -162,7 +176,8 @@ section {
 
 .bg-pinkish {
 color: white;
-background-color: tomato;
+background-color: #002b37;
+border-top: 1px solid white;
 }
 
 
@@ -170,6 +185,7 @@ footer {
     background-color: #a64253;
     color: white;
     text-align: center;
+    border-top: 1px solid white;
 }
 
 footer .fa-heart {
@@ -179,6 +195,9 @@ footer .fa-heart {
 @media (max-width: 440px) {
     section {
         padding: 20px;
+    }
+    nav {
+        font-size: 15px;
     }
 header {
     height: max-content;
