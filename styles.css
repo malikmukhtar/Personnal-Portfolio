@@ -15,7 +15,7 @@ body {
 nav {
     color: white;
     font-size: 25px;
-    /* background-color: #a64253; */
+    background-color: #a64253;
     padding: 20px;
     display: flex;
     justify-content: flex-end;
